@@ -1,0 +1,13 @@
+    <p>
+        Ôxe, minha gente! Seja bem-vindo(a) à nossa concessionária aqui em Pernambuco, pertinho do forró e do frevo! Aqui, a gente tá sempre pronto pra te atender com um sorriso no rosto e aquele jeitinho hospitaleiro que só o povo pernambucano tem.
+        <br>
+        Na nossa concessionária, você vai encontrar uma variedade danada de carros novos e seminovos das melhores marcas do mercado. Temos opções pra todo mundo, desde os apaixonados por carros populares até aqueles que buscam um veículo mais sofisticado e cheio de tecnologia.
+        <br>
+        Aqui, a gente valoriza muito a transparência e o respeito com os clientes. Nossa equipe de vendedores tá sempre pronta pra te orientar, esclarecer todas as dúvidas e te ajudar a escolher o carro que melhor se encaixa nas suas necessidades e no seu bolso. E pode ficar tranquilo(a), a gente sempre busca oferecer as melhores condições de pagamento e financiamento, pra você sair daqui com seu novo possante.
+        <br>
+        Mas não é só isso, não! A gente também conta com um serviço de pós-venda de primeira qualidade. Nossa oficina é equipada com tecnologia de ponta e nossa equipe de mecânicos é altamente capacitada pra cuidar do seu carro com todo carinho e competência. Se precisar de revisões, consertos ou até mesmo de um simples check-up, é só passar aqui que a gente resolve.
+        <br>
+        E, claro, não poderia faltar um cantinho especial pra você tomar um cafézinho e bater aquele papo animado sobre carros e outras coisas da vida. Afinal, aqui a gente valoriza os laços de amizade e a troca de experiências.
+        <br>
+        Então, meu amigo(a), quando estiver procurando por um carro novo ou precisar de serviços de qualidade pro seu veículo, já sabe: venha nos visitar! Nossa concessionária em Pernambuco vai te receber de braços abertos, com um sorriso largo e a alegria contagiante do nosso povo. Vem provar do nosso "cafézin" e encontrar o carro dos seus sonhos!
+    </p>
