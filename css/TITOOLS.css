@@ -22,10 +22,11 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  nav {
-    background-color: #f2f2f2;
-  }
-  
+.icon-amazon {
+margin-top: 150px;
+margin-left: 20px;
+margin-right: 300px;
+}  
   ul {
     list-style-type: none;
     margin: 0;

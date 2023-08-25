@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tela de login</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=oswald">
+</head>
+<style>
+  .box {
+    background-color: rgba(22, 241, 168, 0.041);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .form {
+    text-align: center;
+  }
+  .rounded-input {
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 10px;
+        }
+  .rounded-input input[type="text"],
+  .rounded-input input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+        }
+  .rounded-input span {
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 5px;
+    width: 80px;
+        }
+    body {
+      background-image: url("imagens/gradient-blue.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+</style>
+<body class="body">
+  <main> 
+    <div class="container">
+    </div>
+    <div class="box">
+        <div class="form">
+            <h2><p style="font-family:oswald">SING IN</p></h2>
+            <div class="inputbox rounded-input">
+                <input type="text" required="required" />
+                <span>username</span>
+                <i></i>
+            </div>
+            <div class="inputbox rounded-input">
+                <input type="password" required="required" />
+                <span>password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#"><P style="font-family: oswald;">forgot password</P></a>
+                <a href="#">sign up</a>
+            </div>
+            <input type="submit" value="login" />
+        </div>
+    </div>
+  </main>
+</body>
+</html>
