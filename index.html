@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonunes-inicio</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="logo/AutonunesLogo.webp" alt="Logotipo da Empresa">
+                <img src="logo/Chevrolet.png" alt="Logotipo da Empresa">
+            </div>
+        </header>
+        <div class="button-container">
+            <button class="botao" data-group="carros">CARROS</button>
+            <button class="botao" data-group="suvs">SUVS</button>
+            <button class="botao" data-group="eletricos">ELÉTRICOS</button>
+            <button class="botao" data-group="picapes">PICAPES</button>
+            <button class="botao" data-group="esportivos">ESPORTIVOS</button>
+        </div>
+        <div class="image-container carros">
+            <img src="logo/cruze.webp" alt="cruze">
+            <img src="logo/cruzesport6.webp" alt="cruze sport 6 rs">
+            <img src="logo/onix.webp" alt="onix">
+            <!-- Resto das imagens de carros -->
+        </div>
+        <div class="image-container suvs">
+            <img src="logo/tracker.webp" alt="tracker">
+            <img src="logo/spin.webp" alt="spin">
+            <img src="logo/spinactiv.webp" alt="spin activ">
+            <!-- Resto das imagens de SUVs -->
+        </div>
+        <div class="image-container eletricos">
+            <img src="logo/bolteuv.webp" alt="bolt euv">
+            <img src="logo/boltev.webp" alt="bolt ev">
+            <!-- Resto das imagens de carros elétricos -->
+        </div>
+        <div class="image-container picapes">
+            <img src="logo/silverado.webp" alt="silverado">
+            <img src="logo/montana.webp" alt="montana">
+            <img src="logo/n10cd.webp" alt="nova s10 cabine dupla">
+        </div>
+        <div class="image-container esportivos">
+            <img src="logo/camaro.webp" alt="camaro">
+        </div>
+        <p>As concessionárias Chevrolet Autonunes localizadas em diversas cidades do estado de Pernambuco, incluindo Recife, Olinda, Cabo de Santo Agostinho, Jaboatão dos Guararapes, Caruaru e Gravatá. Oferecemos uma linha completa de carros zero km da Chevrolet, além de uma ampla gama de serviços de manutenção e reparo de veículos com peças genuínas GM e acessórios automotivos originais.           
+        </p>
+        <h3>
+            Encontre as melhores ofertas de carros à venda em Pernambuco na Chevrolet Autonunes
+        </h3>
+        <p>
+            Na Autonunes Pernambuco, temos diversas opções para o seu negócio, incluindo descontos para PcD, frotistas, taxistas e outras categorias de Vendas Diretas. Compre carros com desconto direto da fábrica de acordo com a sua área de atuação.
+        </p>
+        <p>
+            Você pode conferir o estoque de carros novos e carros seminovos em Pernambuco com taxas de financiamento que cabem no seu bolso. Também oferecemos cotações para seguro e consórcio de carros Chevrolet, com as melhores soluções para sua compra. Confira abaixo as nossa concessionárias Chevrolet Autonunes:
+        </p>
+    </main>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll(".botao");
+        const imageContainers = document.querySelectorAll(".image-container");
+    
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const group = button.getAttribute("data-group");
+                imageContainers.forEach((container) => {
+                    container.classList.toggle("show", container.classList.contains(group));
+                });
+            });
+        });
+    });
+    </script>
+</body>
+</html>

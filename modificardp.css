@@ -1,0 +1,38 @@
+.logo {
+    text-align: center;
+    padding: 50px;
+    margin-left: 15px;
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+
+.image-container {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+/* Estilos individuais para imagens específicas */
+.image-container.carros img {
+    max-height: 150px; /* Ajuste a altura máxima conforme necessário */
+}
+
+.image-container.suvs img {
+    max-height: 120px; /* Ajuste a altura máxima conforme necessário */
+}
+
+/* Adicione estilos para outros grupos de imagens conforme necessário */
+
+/*todo css acima e para subistituir

@@ -1,0 +1,49 @@
+.main {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; 
+    width: 100%; 
+    justify-content: center; 
+}
+
+.botao {
+    font-weight: bold;
+    padding: 10px 30px; 
+    background-color: #9c9994;
+    color: rgb(0, 0, 0);
+    border: 1px solid; 
+    border-radius: 5px; 
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    text-align: center;
+    padding: 50px;
+    margin-left: 15px;
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+
+.image-container {
+    display: none;
+    text-align: center; /* Centralizar imagens horizontalmente */
+    margin-top: 20px; /* Espaçamento entre grupos de imagens */
+}
+
+.image-container.show {
+    display: flex;
+    flex-wrap: wrap; /* Quebra as imagens para a próxima linha quando não couberem */
+    justify-content: center; /* Centralizar imagens horizontalmente */
+}
+
+.image-container img {
+    max-width: 100%; /* Assegura que as imagens se ajustem ao contêiner */
+    height: auto;
+    margin: 10px; /* Espaçamento entre imagens */
+}
